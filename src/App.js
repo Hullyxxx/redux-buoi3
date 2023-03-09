@@ -1,9 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
+import ExShoeShopHook from './ExShoeShopHook/ExShoeShopHook';
 
 function App() {
   return (
-    <div className="App">
+    <div className="container">
+      <ExShoeShopHook/>
     </div>
   );
 }
